@@ -69,15 +69,15 @@ struct modifier_symbol ms_alt = {
     .symbol_dsc = &alt_icon,
 };
 
-LV_IMG_DECLARE(win_icon);
-struct modifier_symbol ms_win = {
+LV_IMG_DECLARE(sup_icon);
+struct modifier_symbol ms_sup = {
     .modifier = MOD_LGUI | MOD_RGUI,
-    .symbol_dsc = &win_icon,
+    .symbol_dsc = &sup_icon,
 };
 
 struct modifier_symbol *modifier_symbols[] = {
     // this order determines the order of the symbols
-    &ms_win,
+    &ms_sup,
     &ms_alt,
     &ms_control,
     &ms_shift
