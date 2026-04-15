@@ -138,7 +138,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_WIN uint8
   0xf7, 0xbc,
 };
 
-const lv_img_dsc_t win_icon = {
+const lv_img_dsc_t sup_icon = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
